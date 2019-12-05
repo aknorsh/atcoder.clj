@@ -1,8 +1,10 @@
-; a 99
+; a 98 - 99
 
-(defn solve [a]
-  (if (> a 999)
-      "ABD"
-      "ABC"))
+(defn solve [a b]
+  (max (+ a b) (max (- a b) (* a b)))
+  )
 
-(println (solve (read)))
+(println (solve (read) (read)))
+
+
+
