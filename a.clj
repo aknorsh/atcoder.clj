@@ -1,10 +1,10 @@
-; a 98 - 99
+; a 96 - 99
 
-(defn solve [a b]
-  (max (+ a b) (max (- a b) (* a b)))
+
+(defn solve [st]
   )
 
-(println (solve (read) (read)))
+(println (solve (read-line)))
 
 
 
